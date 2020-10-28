@@ -37,7 +37,7 @@ function draw() {
         c3 = [255, 0, 0, 255];
         img.set(x, y, c3);
       }
-      if (random() > 0.5) {
+      if (random() > 0.9) {
         img.set(random(width), random(height), c2);
       }
     }
