@@ -21,12 +21,12 @@ function draw() {
       if (lightness(c) < 35) {
         let c1 = color(255, 255 - frameCount * 2);
 
-        // img.set(
-        //   x + (x - width / 2) * (frameCount * 0.1) + random(-50, 50),
-        //   y - (frameCount * frameCount) / 30,
-        //   c1
-        // );
-        img.set(x, y, c1);
+        img.set(
+          x + (x - width / 2) * (frameCount * 0.1) + random(-50, 50),
+          y - (frameCount * frameCount) / 30,
+          c1
+        );
+        //img.set(x, y, c1);
       }
     }
   }
